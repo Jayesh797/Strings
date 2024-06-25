@@ -15,3 +15,9 @@ def removeOuterParentheses(string):
 
 sd=removeOuterParentheses("(()())(())(()(()))")
 print(sd)
+
+# Input: s = "(()())(())(()(()))"
+# Output: "()()()()(())"
+# Explanation: 
+# The input string is "(()())(())(()(()))", with primitive decomposition "(()())" + "(())" + "(()(()))".
+# After removing outer parentheses of each part, this is "()()" + "()" + "()(())" = "()()()()(())".
